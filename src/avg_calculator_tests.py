@@ -69,7 +69,7 @@ class TestAvgCalculator(unittest.TestCase):
         self.assertEqual(curr_avg_calculator.getAvg(), 0)
 
 
-        list_of_numbers = [0, 0, 15, 18, 2, 36, 12, 78, 5, 6, 9, -12, -124, Decimal(2.3), Decimal(12.534523523), 22, 22, 22]
+        list_of_numbers = [0, 0, 15, 18, 2, 36, 12, 78, 5, 6, 9, -12, -124, Decimal(2.3), Decimal(12.534523523), 3123132132131231231231231231231231231232131231231231231]
         average_of_list = sum(list_of_numbers) / len(list_of_numbers)
 
         for num in list_of_numbers:
